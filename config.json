@@ -1,0 +1,12 @@
+{
+  "playlist": [
+    {"file": "./intermission.mkv", "loop": true},
+    {"file": "./a.mp4", "volume": 50, "start-time": "00:01:00", "skip-time": "00:00:02"},
+    {"file": "./a.mp4", "volume": 50, "start-time": "00:08:55"},
+    {"file": "./b.mp4"},
+    {"file": "./intermission.mkv", "loop": true}
+  ],
+  "start-mpv": false,
+  "ipc-path": "/tmp/mpvsocket",
+  "mpv-location": "/usr/bin/mpv"
+}
